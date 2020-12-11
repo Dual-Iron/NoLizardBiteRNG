@@ -1,2 +1,4 @@
 # NoLizardBiteRNG
-Depends on ConfigMachine! Found here: https://www.raindb.net/ in Tools
+Download here: https://github.com/Dual-Iron/NoLizardBiteRNG/releases
+
+Depends on ConfigMachine! That can be found here: https://www.raindb.net/ in Tools

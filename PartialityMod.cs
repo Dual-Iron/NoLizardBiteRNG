@@ -11,9 +11,9 @@ namespace NoLizardBiteRNG
     {
         public NoLizardBiteRNG()
         {
-            ModID = "Consistent Lizard Bites";
+            ModID = "Consistent Lizard Chomps";
             author = "Dual";
-            Version = "1.0.0.0";
+            Version = "1.0.0";
             Instance = this;
         }
 

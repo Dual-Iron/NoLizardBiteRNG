@@ -1,2 +1,2 @@
 # NoLizardBiteRNG
-Mod for Rain World that makes lizard bites consistent
+Depends on ConfigMachine! Found here: https://www.raindb.net/ in Tools

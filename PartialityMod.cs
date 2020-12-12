@@ -46,7 +46,7 @@ namespace NoLizardBiteRNG
             orig(self, eu);
 
             // Decrease accumulated lizard damage
-            if (self.Consious && players.ContainsKey(self.playerState.playerNumber))
+            if (self.grabbedBy?.Count == 0 && players.ContainsKey(self.playerState.playerNumber))
             {
                 ref var cooldown = ref players[self.playerState.playerNumber].RegenCooldown;
                 cooldown -= 1f / self.room.game.framesPerSecond;

@@ -6,7 +6,7 @@ Can be configured using ConfigMachine, found [here](https://www.raindb.net/) in 
 ## New mod behavior
 + When bit by a lizard, instead of randomly killing the player, the player takes damage.
 + Too much damage equals death.
-+ Some time after being released, or after the start of a cycle, damage is reset.
++ Some time after being released, or after the cycle ends, damage is reset.
 
 ## Unchanged vanilla behavior
 + When not killed by a bite, slugcat is only grabbed, so you can still escape with your life if your captor drops you before reaching a den.

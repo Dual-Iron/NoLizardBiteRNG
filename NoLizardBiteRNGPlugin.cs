@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace NoLizardBiteRNG
 {
-    [BepInPlugin("com.github.dual.nolizardbiterng", "NoLizardBiteRNG", "1.1.0")]
+    [BepInPlugin("com.github.dual.nolizardbiterng", "NoLizardBiteRNG", "1.2.0")]
     public class NoLizardBiteRNGPlugin : BaseUnityPlugin
     {
         public static object LoadOI() => new Config();

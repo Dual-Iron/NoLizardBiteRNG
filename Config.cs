@@ -5,16 +5,16 @@ namespace NoLizardBiteRNG
 {
     public class Config : OptionInterface
 	{
-		public Config() : base(NoLizardBiteRNG.Instance) { }
+		public Config() : base(NoLizardBiteRNGPlugin.Instance) { }
 
         public override bool Configuable() => true;
 
         public override void ConfigOnChange()
         {
-            NoLizardBiteRNG.BiteDamageMultiplier = int.Parse(config["D1"]) / 10;
-            NoLizardBiteRNG.Cooldown = int.Parse(config["D2"]);
-            if (NoLizardBiteRNG.Cooldown < 0)
-                NoLizardBiteRNG.Cooldown = int.MaxValue;
+            NoLizardBiteRNGPlugin.BiteDamageMultiplier = int.Parse(config["D1"]) / 10;
+            NoLizardBiteRNGPlugin.Cooldown = int.Parse(config["D2"]);
+            if (NoLizardBiteRNGPlugin.Cooldown < 0)
+                NoLizardBiteRNGPlugin.Cooldown = int.MaxValue;
         }
 
         public override void Initialize()

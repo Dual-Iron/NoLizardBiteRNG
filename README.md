@@ -1,3 +1,6 @@
+# 301 Moved Permanently
+This repository is for Rain World v1.5. The updated version for Rain World v1.9 is available [here](https://github.com/Dual-Iron/no-damage-rng).
+
 # NoLizardBiteRNG
 Download here: https://github.com/Dual-Iron/NoLizardBiteRNG/releases
 
